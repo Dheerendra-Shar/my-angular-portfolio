@@ -18,7 +18,6 @@ export function provideApollo(httpLink: HttpLink,tokenService: TokenService) {
   }));
   
   const token = tokenService.getDecryptedToken(); //Your github token here
-  console.log('token: ', token);
   const auth = setContext((operation, context) => ({
     headers: {
       Authorization: `Bearer ${token}`
