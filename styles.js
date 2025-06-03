@@ -526,7 +526,7 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!************************************************************************************************************************************!*\
   !*** multi ./src/styles.scss ./node_modules/font-awesome/css/font-awesome.css ./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
   \************************************************************************************************************************************/
@@ -540,5 +540,5 @@ module.exports = __webpack_require__(/*! E:\Dheerendra\my-angular-portfolio\node
 
 /***/ })
 
-},[[2,"runtime"]]]);
+},[[3,"runtime"]]]);
 //# sourceMappingURL=styles.js.map
