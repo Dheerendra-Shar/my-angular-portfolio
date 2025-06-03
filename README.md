@@ -37,10 +37,10 @@ Angular@8.0.2 or higher
 From your command line, clone and run AngularFolio:
 ```bash
 # Clone this repository
-$ git clone https://github.com/sarthakgoenka/Angularfolio
+$ git clone https://github.com/Dheerendra-Shar/my-angular-portfolio.git
 
 # Go into the repository
-$ cd Angularfolio
+$ cd my-angular-portfolio
 
 # Install dependencies
 $ npm install

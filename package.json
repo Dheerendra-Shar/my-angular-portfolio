@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --host 192.168.29.229 --port 4200",
+    "build": "ng build --base-href /my-angular-portfolio/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -34,6 +34,7 @@
     "apollo-link-context": "^1.0.20",
     "bootstrap": "^4.5.0",
     "colorthief": "^2.6.0",
+    "crypto-js": "^4.2.0",
     "font-awesome": "^4.7.0",
     "github-calendar": "^2.2.1",
     "graphql": "^15.3.0",

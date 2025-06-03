@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Apollo} from "apollo-angular";
 import gql from 'graphql-tag';
+import { TokenService } from '../token.service';
 
 @Component({
   selector: 'app-projects',
@@ -31,7 +32,7 @@ export class ProjectsComponent implements OnInit {
 
     // }
   ]
-  constructor(public apollo: Apollo) { }
+  constructor(public apollo: Apollo,private tokenService: TokenService) { }
 
   ngOnInit(): void {
 

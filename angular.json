@@ -20,6 +20,7 @@
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
+             "baseHref": "/my-angular-portfolio/",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
