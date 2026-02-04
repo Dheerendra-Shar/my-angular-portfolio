@@ -16,6 +16,15 @@ export class SocialMediaComponent implements OnInit {
   };
   constructor() { }
 
+  get gmailLink(): string {
+  const subject = encodeURIComponent('Job Opportunity - Angular Developer');
+  const body = encodeURIComponent(
+    'Hi Dheerendra,\n\nI came across your profile and would like to connect.'
+  );
+
+  return `mailto:${this.socialMediaLinks.gmail}?subject=${subject}&body=${body}`;
+}
+
   ngOnInit(): void {
   }
 
