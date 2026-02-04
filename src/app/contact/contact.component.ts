@@ -9,7 +9,7 @@ export class ContactComponent implements OnInit {
   public contactInfo = {
     title: "Contact Me ☎️",
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+91-6388399248",
+    number: "+91-7270820320",
     email_address: "dheerendrasharma394@gmail.com"
   };
   constructor() { }

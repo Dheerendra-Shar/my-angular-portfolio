@@ -45,8 +45,8 @@ export class GreetingComponent implements OnInit {
   greeting= {
     username: "Dheerendra Sharma",
     title: "Hi all, I'm Dheerendra",
-    subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Frontend Developer | Angular 15 | TypeScript | RxJS | HTML5 | CSS3 | Tailwind CSS | REST API | Git and some other cool libraries and frameworks.",
-    resumeLink: "https://drive.google.com/file/d/1ELMiPEQ_usUzRZZ4u8n2rwihOc7iMNo3/view?usp=sharing"
+    subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Frontend Developer | Angular (15-19)v | TypeScript | RxJS | HTML5 | CSS3 | Tailwind CSS | REST API | Git and some other cool libraries and frameworks.",
+    resumeLink: "https://drive.google.com/file/d/1XbcwbSiO9Y7WMlQGbOfP1pr4MQ9MQAhr/view?usp=sharing"
   }
   constructor() { }
 
