@@ -21,3 +21,8 @@ export class TokenService {
     return decrypted.toString(CryptoJS.enc.Utf8);
   }
 }
+
+export function _window(): any {
+  // return the global native browser window object
+  return window;
+}

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {animate, state, style, transition, trigger} from "@angular/animations";
+import { _window } from '../token.service';
 
 @Component({
   selector: 'app-greeting',
@@ -45,8 +46,8 @@ export class GreetingComponent implements OnInit {
   greeting= {
     username: "Dheerendra Sharma",
     title: "Hi all, I'm Dheerendra",
-    subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Frontend Developer | Angular (15-19)v | TypeScript | RxJS | HTML5 | CSS3 | Tailwind CSS | REST API | Git and some other cool libraries and frameworks.",
-    resumeLink: "https://drive.google.com/file/d/1XbcwbSiO9Y7WMlQGbOfP1pr4MQ9MQAhr/view?usp=sharing"
+    subTitle:_window().subTitle,
+    resumeLink: _window().resumelink
   }
   constructor() { }
 

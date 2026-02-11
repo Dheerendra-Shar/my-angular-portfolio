@@ -33,7 +33,7 @@ export class ExperienceComponent implements OnInit {
         company: "Bridge Health Medical & Digital Solutions Pvt. Ltd., Bengaluru",
         color: "#ff9102",
         companylogo: "assets/images/bhlogo.webp",
-        date: "Jul 2021 – Apr 2022",
+        date: "Aug 2021 – Apr 2022",
         desc: "Developed healthcare platforms using Angular and Node.js.Integrated Zoom SDK, Jitsi Meet, and AI tools like Simbo AI.Delivered solutions under tight deadlines and was recognized as a key problem-solver.",
         },
       
